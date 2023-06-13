@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
+
+#banner {
+		padding: 8em 0 9em 0;
+		background-image: url(../../images/rouen.jpng);
+		background-size: cover;
+		background-position: bottom;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+	}
+	body {
+				font-family: Arial, sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			header {
+				background-color: #333;
+				color: #fff;
+				padding: 20px;
+			}
+
+			nav {
+				text-align: center;
+			}
+
+			nav a {
+				color: #fff;
+				text-decoration: none;
+				margin: 0 10px;
+			}
+
+			
+			#banner h1 {
+				font-size: 48px;
+				color: #333;
+				margin-bottom: 20px;
+			}
+
+			.flex {
+				display: flex;
+				justify-content: space-around;
+				margin: 20px 0;
+			}
+
+			.flex > div {
+				width: 30%;
+				background-color: #fff;
+				padding: 20px;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			}
+
+			.flex h3 {
+				color: #333;
+				font-size: 24px;
+				margin-bottom: 10px;
+			}
+
+			.flex p {
+				color: #666;
+				line-height: 1.5;
+			}
+
+			#three {
+				background-color: #f1f1f1;
+				padding: 50px 0;
+			}
+
+			.flex-2 {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				flex-wrap: wrap;
+			}
+
+			.flex-2 article {
+				width: 40%;
+				background-color: #fff;
+				padding: 20px;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+				margin-bottom: 20px;
+			}
+
+			.flex-2 article .image {
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				margin: 0 auto 20px;
+			}
+
+			.flex-2 article h3 {
+				color: #333;
+				font-size: 24px;
+				margin-bottom: 10px;
+			}
+
+			.flex-2 article p {
+				color: #666;
+				line-height: 1.5;
+			}
+
+			.new1 {
+				border: none;
+				height: 1px;
+				background-color: #333;
+				margin: 50px 0;
+			}
+
+			.footer {
+				text-align: center;
+				padding: 20px;
+				background-color: #333;
+				color: #fff;
+			}
